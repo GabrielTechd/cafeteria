@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*,
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    color: var(--texto);
+    text-decoration: none;
+    list-style: none;
+    background-color: var(--background);
+}
+
+:root {
+    --background: #373740;
+    --sobrepor: #324373;
+    --botao: #3F59A6;
+    --cafe: #594520;
+    --texto: #f1f1f2;
+    --box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#logo {
+    font-size: 23px;
+    font-weight: 800;
+    text-decoration: none;
+    color: var(--texto);
+    text-transform: uppercase;
+}
+
+nav {
+    box-shadow: var(--box-shadow);
+    background-color: var(--background);
+    z-index: 1000;
+    padding-top: 50rem;
+}
+
+.nav-link {
+    padding: 3rem;
+    font-size: 23px;
+    color: var(--texto);
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.3s all ease-in-out;
+    margin-right: 2rem;
+}
+
+.nav-link:hover {
+    color: var(--sobrepor);
+}
+
+header {
+    z-index: -1;
+    padding-top: 11rem;
+}
+
+header img{
+    z-index: -1;
+    width: 90vw;
+    height: 90vh;
+    object-fit: cover;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+}
+
+#itens img {
+    width: 50%;
+    height: 10%;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+#itens h5 {
+    margin-top: 1rem;
+    color: var(--texto);
+    font-size: 20px;
+}
+
+#itens h5, p{
+    text-align: center;
+}
+
+#itens, #sobre, #avaliacoes, #contato {
+    padding-top: 10rem;
+    font-size: 20px;
+}
+
+#sobre, p{
+    text-align: center;
+}
+
+#sobre img{
+    width: 150%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    padding-bottom: 2rem;
+}
+
+.col .card {
+    box-shadow: var(--box-shadow);
+}
+
+#avaliacoes .card-title {
+    background-color: var(--cafe);
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    color: var(--texto);
+    font-size: 25px;
+}
+
+.contato h2 {
+    text-align: center;
+}
+
+#teste{
+    font-size: 30px;
+    margin-right: 2rem;
+    transition: 0.3s all ease-in-out;
+    margin-top: 2rem;
+}
+
+#teste:hover {
+    color: var(--cafe);
+}
+
+iframe {
+ border-radius: 10px;
+ box-shadow: var(--box-shadow);
+}
